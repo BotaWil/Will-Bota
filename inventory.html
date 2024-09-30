@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Inventory - WB AutoFinder</title>
+    <link rel="stylesheet" href="inventory.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">WB AutoFinder</div>
+            <ul class="nav-links">
+                <li><a href="index3.html">Home</a></li>
+                <li><a href="inventory.html">Cars</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="TestDrive.html" class="cta-btn">Book a Test Drive</a>
+        </nav>
+    </header>
+
+    <!-- Inventory Section -->
+    <section class="inventory">
+        <h2>Available Cars</h2>
+        <div class="car-grid">
+            <div class="car-card">
+                <img src="Final Lamborghini Aventador.webp" alt="Car 1">
+                <h3>LAMBORGHINI AVENTADOR</h3>
+                <p>Price: $420,000</p>
+                <button class="btn">View Details</button>
+            </div>
+            <div class="car-card">
+                <img src="jeskogold.webp" alt="Car 2">
+                <h3>KOENIGSEGG JESKO (ATTACK)</h3>
+                <p>Price: $3,580,000</p>
+                <button class="btn"onclick="viewDetails('KOENIGSEGG JESKO (ATTACK)')">View Details</button>
+            </div>
+            <div class="car-card">
+                <img src="Ford-Mustang-GTD-1.jpg" alt="Car 3">
+                <h3>FORD MUSTANG GTD</h3>
+                <p>Price: $135,000</p>
+                <button class="btn">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 WB AutoFinder. All rights reserved.</p>
+    </footer>
+
+    <script src="details.js"></script>
+    <script>
+        function viewDetails(car) {window.location.href=car+'-details.html;'}
+    </script>
+
+</body>
+</html>
