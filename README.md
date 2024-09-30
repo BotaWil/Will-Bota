@@ -4,7 +4,7 @@ Overview
 AutoFinder is a front-end interactive car sales website designed to make browsing, viewing, and booking test drives for cars as seamless as possible. This project is built using HTML, CSS, and JavaScript, focusing on user experience and interactivity. The website allows users to explore car inventories, view detailed information for specific cars, schedule test drives, and get in touch with the dealership.
 
 ## Screenshot
-![Screenshot of Tokea! Home Page](Screenshot.png)
+![Screenshot of Tokea! Home Page](Screenshot.jpg)
 
 Website Features:
 
